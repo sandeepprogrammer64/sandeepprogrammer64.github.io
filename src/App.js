@@ -1,13 +1,18 @@
 //import logo from './logo.svg';
 import './App.css';
+import NavBar from './Components/NavBar';
+//import 'bootstrap/dist/css/bootstrap.min.css';
+import Profile from './Profile/Profile';
 
 function App() {
   return (
     <div className="App">
      
-      <h2>Hello Sandeep Prajapati Here</h2>
-      <h3>Please Beware A Portfolio is about to Come...</h3>
-
+      
+      
+      <NavBar />
+      
+      <Profile />
 
     </div>
   );
