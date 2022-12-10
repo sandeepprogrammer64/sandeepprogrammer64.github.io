@@ -1,6 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
-
+import "./Profile.css"
 
 function Profile() {
   return (
@@ -8,20 +8,29 @@ function Profile() {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
-             <a href="https://www.linkedin.com/in/sandeep-prajapati64/" target="blank" title="">
+            <div className="colz-icon">
+
+            <a href="https://github.com/sandeepprogrammer64" target="blank" title="Github">
+               <i  className="fa fa-github"></i>
+             </a>
+
+             <a href="https://www.linkedin.com/in/sandeep-prajapati64/" target="blank" title="Linkedin">
                <i className="fa fa-linkedin"></i>
              </a>
-             <a href="https://twitter.com/Sandeep63259242" target="blank" title="">
+             <a href="https://twitter.com/Sandeep63259242" target="blank" title="Twitter">
                <i className="fa fa-twitter"></i>
              </a>
-             <a href="https://www.instagram.com/smart_swag_feb/" target="blank" title="">
+             <a href="https://www.instagram.com/smart_swag_feb/" target="blank" title="Instagram">
                <i style={{color: "red", height: "20px"}} className="fa fa-instagram"></i>
              </a>
+            
+
+            </div>
            
           </div>
        
         <div className="profile-details-name">
-           <h3> Hello, I'M Sandeep Prajapati</h3>
+           <h3> Hello, I'm Sandeep Prajapati</h3>
         </div>
         <div className="profile-details-role">
               <h1>
@@ -45,9 +54,15 @@ function Profile() {
 
         <div>
             <a href="Sandeep_Prajapati_Resume.pdf" target="" download="Sandeep_Prajapati_Resume.pdf">
-            <button>Get Resume</button>
+           <button className="primary-button">Get Resume</button>
             </a>
         </div>
+        </div>
+
+        <div className="profile-picture">
+          <div className="profile-pic-background">
+              <img className="avatar" src="https://avatars.githubusercontent.com/u/101393796?v=4" alt="sandeep" />
+          </div>
         </div>
       </div>
     </div>

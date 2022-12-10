@@ -1,0 +1,55 @@
+
+.profile-container{
+    display: flex;
+    padding-left: 30px;
+    height: 10%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+     /* background-color: #282c34; */
+   
+}
+
+.profile-details-name{
+     font-size: 24px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    margin: 0 0px 0 100px ;
+   
+
+}
+
+.avatar{
+   margin-top: 20px;
+   margin-right: 100px;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+}
+
+.avatar:hover{
+    transform: scale(1.07);
+    transition: 1s ease-in;
+}
+
+.colz .colz-icon i{
+    gap: 10px;
+    padding: 7px;
+   
+}
+ 
+.colz .colz-icon i:hover{
+    transform: scale(1.1);
+}
+
+.colz-icon i{
+    width: 30px;
+    height: 30px;
+}

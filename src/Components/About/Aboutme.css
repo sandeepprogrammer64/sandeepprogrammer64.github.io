@@ -1,0 +1,35 @@
+
+
+.about-btns{
+   background-color: #757880;
+   border-radius: 10px;
+   padding: 20px;
+}
+
+.about-btn{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 20px;
+    background: transparent;
+    border-bottom: 1px solid #7865ff;
+    color: antiquewhite;
+}
+
+.about-btn-active{
+    background: #7865ff;
+}
+
+.about-content-wrapper{
+    background: #7865ff;
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.about-img img{
+    background: #7865ff;
+    border-radius: 10px;
+   
+    height: 100px;
+}
