@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 
 
@@ -19,4 +20,14 @@ html{
 h1,h2,h3,h4,h5{
   color: rgb(54, 45, 45);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  background: #c1ceff;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 2em;
+  background: #282f4e;
 }

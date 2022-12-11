@@ -1,0 +1,32 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#yes{
+   
+    border-radius: 10px;
+    border: 1px solid;
+    width: 100px;
+}
+
+.imgs{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    display: grid;
+    background: rgb(138, 146, 153);
+  
+}
+
+.imgs img{
+    width: 150px;
+    height: 150px;
+    margin: 0;
+}
+
+.imgs img:hover{
+    transform: scale(1.08);
+    transition: 1s ease-in;
+    cursor: pointer;
+}

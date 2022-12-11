@@ -1,0 +1,26 @@
+
+.form{
+    width: 100%;
+    background: rgb(41, 65, 85);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.form-input input, .form-input textarea{
+    width: 100%;
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: #102048;
+    border-radius: 10px;
+}
+
+.submit-btn{
+    margin-top:15px ;
+    padding: 7px 25px;
+    font-size: 0.9rem;
+    background: #7865ff;
+    border-radius: 5px;
+}

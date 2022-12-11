@@ -11,7 +11,7 @@ function Aboutme() {
 
     const [about, setAbout] = useState("ABOUT");
 
-  return <section id="about">
+  return <section id="about me">
     <Container>
         <Row>
             <Col lg="12" className="mb-5">
@@ -19,8 +19,8 @@ function Aboutme() {
             </Col>
             <Col lg="4" md="3">
             <div className="about-btns d-flex flex-column align-items-center">
-                <button className="about-btn about-btn-active" onClick={() => setAbout("ABOUT")}>About Me</button>
-                <button className="about-btn" onClick={() => setAbout("SKILLS")}>Skills</button>
+                <button className= {`about-btn ${about === "ABOUT" ? "about-btn-active" : ""}`}  onClick={() => setAbout("ABOUT")}>About Me</button>
+                <button className= {`about-btn ${about === "SKILLS" ? "about-btn-active" : ""}`} onClick={() => setAbout("SKILLS")}>Skills</button>
                 
                
             </div>
