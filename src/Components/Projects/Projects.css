@@ -1,71 +1,22 @@
-
-
-.project-top h4{
-
-    background: #7865ff;
-    margin-top: 50px;
-    
+.project-images{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 500px);
+    display: grid;
+    margin-left: 40px;
+    gap: 50px;
+   
 }
 
-.project-card{
-    
-    z-index: 90;
-    cursor: pointer;
-}
-
-.project-content{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 450px;
-    height: 400px;
-    z-index: 91;
-    background: linear-gradient(rgb(0, 13, 107, 0.6), rgb(0, 13, 107, 0.6));
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translateY(-20%);
-    opacity: 0;
-    transition: .3s;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-
-
-.project-card:hover .project-content{
-     transform: translateY(0);
-     opacity: 1;
-}
-
-.project-content h5{
-     color: #fff;
-}
-
-.project-image img{
-    border-radius: 10px;
-    width: 450px;
-    height: 400px;
-}
-
-.project-image{
-    border-radius: 10px;
+.project-images img{
     width: 550px;
     height: 500px;
+    border: 1px solid rgb(59, 112, 83);
+    border-radius: 10px;
+}
+
+.project-images img:hover{
+    transform: scale(1.07);
+    transition: ease-in;
+    border: 1px solid orangered;
     
-
-
-}
-.project-btn{
-   background-color:green;
-   padding:6px ;
-   border-radius:5px;
-   font-weight: bold;
-   color: yellow;
-   margin-left: 20px;
-}
-
-.project-btn:hover{
-    background-color: rgb(128, 132, 136);
 }

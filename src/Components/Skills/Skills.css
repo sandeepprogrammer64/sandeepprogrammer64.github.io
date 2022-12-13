@@ -4,11 +4,21 @@
     margin: 0;
     padding: 0;
 }
+
+
 #yes{
    
-    border-radius: 10px;
-    border: 1px solid;
+    border-radius: 15px;
+    border: 1px solid blue;
     width: 100px;
+}
+
+#yes h3{
+    background: #7865ff;
+    color: aliceblue;
+    height: 45px;
+    padding: 10px;
+
 }
 
 .imgs{
@@ -16,6 +26,7 @@
     grid-template-rows: repeat(2, 200px);
     display: grid;
     background: rgb(138, 146, 153);
+    padding: 10px;
   
 }
 

@@ -21,15 +21,19 @@
 }
 
 .about-content-wrapper{
-    background: #7865ff;
+    background: #a7a7a7;
     padding: 20px;
     border-radius: 10px;
-    height: 300px;
+    height: fit-content;
+}
+
+.about-content h2,h4{
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .about-img img{
     background: #7865ff;
     border-radius: 10px;
-   
     height: 100px;
 }

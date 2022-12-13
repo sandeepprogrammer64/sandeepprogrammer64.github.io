@@ -9,9 +9,11 @@
      top: 0;
      left: 0;
      z-index: 1;
-     background-color: #fffcfc;
+     background-color: aliceblue;
   
 }
+
+
 
 .logo h3{
     font-size: 1.3rem;
@@ -23,6 +25,7 @@
     display: flex;
     align-items: center;
     column-gap: 2.7rem;
+    padding: 20px;
 }
 
 .nav-item a{
@@ -38,5 +41,13 @@
 .header-shrink{
     background: #132347;
     box-shadow: 2px 2px 4px -2px #7765ffbd;
+}
+
+.btn{
+    background-color: rgb(255, 194, 194);
+}
+
+.btn:hover{
+    background: rgb(148, 224, 178);
 }
 

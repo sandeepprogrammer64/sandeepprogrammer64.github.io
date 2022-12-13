@@ -2,6 +2,7 @@ import React, {useRef, useEffect} from 'react';
 import {Container} from "reactstrap";
 import "./Header.css";
 
+
 const navLinks = [
     {
          display: "Home",
@@ -28,6 +29,7 @@ const navLinks = [
 function Header() {
 
   const headerRef = useRef(null);
+ 
 
 
   useEffect(() =>
@@ -75,16 +77,18 @@ function Header() {
            <ul className='nav-list'>
             {navLinks.map((item, index) =>
                 {
-                     return <li className='nav-item' key={index}>
+                     return <h6 className='nav-item' key={index}>
                      <a href={item.url} > {item.display}</a>
-                 </li>
+                 </h6>
                 })
             }
             
            </ul>
         </div>
-          <div className="nav-right d-flex align-items-center gap-4">
+        
+          <div className="nav-right">
             <button className='btn'> Let's Talk</button>
+            <button className='btn' style={{marginLeft:"10px"}}> Resume</button>
             <span className='mobile-menu'>
             <i className="fa fa-whatsapp"></i>
             </span>

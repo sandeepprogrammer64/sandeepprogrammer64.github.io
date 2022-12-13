@@ -10,7 +10,7 @@ function Contact() {
     <Container>
         <Row>
             <Col lg="12" className='mb-5'>
-                <h2>Get in Touch</h2>
+                <h2 style={{marginTop:"100px"}}>Get in Touch</h2>
             
             </Col>
             <Col lg="6" md="6">
@@ -47,6 +47,8 @@ function Contact() {
             </Col>
         </Row>
     </Container>
+
+   
 
 
   </section>
