@@ -88,7 +88,7 @@ function Header() {
         
           <div className="nav-right">
             <button className='btn'> Let's Talk</button>
-            <button className='btn' style={{marginLeft:"10px"}}> Resume</button>
+           <a href="https://drive.google.com/file/d/19m6KD4CbI6QVqQTDc-7qmghKVlGNyTqE/view?usp=sharing" target="_blank"> <button className='btn' style={{marginLeft:"10px"}}> Resume</button> </a>
             <span className='mobile-menu'>
             <i className="fa fa-whatsapp"></i>
             </span>

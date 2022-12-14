@@ -1,5 +1,6 @@
 import "./App.css";
-import React, { useEffect, useState } from "react";
+import React from "react";
+// import { useEffect, useState } from "react";
 import Profile from "./Profile/Profile";
 import Layout from "./Layout/Layout";
 import Aboutme from "./Components/About/Aboutme";

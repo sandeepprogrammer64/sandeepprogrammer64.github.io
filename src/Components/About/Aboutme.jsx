@@ -13,7 +13,7 @@ function Aboutme() {
       <Container>
         <Row>
           <Col lg="12" className="mb-5">
-            <h2 style={{marginTop:"100px", background:"#7865ff", height:"50px"}}>About Me & Skills</h2>
+            <h3 style={{marginTop:"100px", background:"#7865ff", height:"50px", padding:"10px"}}>About Me & Skills</h3>
           </Col>
           <Col lg="4" md="3">
             <div className="about-btns d-flex flex-column align-items-center">

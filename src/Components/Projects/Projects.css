@@ -2,8 +2,8 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 500px);
     display: grid;
-    margin-left: 40px;
-    gap: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
    
 }
 
@@ -12,6 +12,7 @@
     height: 500px;
     border: 1px solid rgb(59, 112, 83);
     border-radius: 10px;
+    
 }
 
 .project-images img:hover{
@@ -19,4 +20,41 @@
     transition: ease-in;
     border: 1px solid orangered;
     
+}
+
+.project-header{
+    margin-top: 50px;
+    padding: 10px;
+    background: #7865ff;
+    margin-left: 100px;
+    width: 87%;
+}
+
+.farfetch-header{
+    width: 86%;
+    margin-top: 10px;
+}
+
+.airGarage-header{
+    width: 86%;
+    
+}
+
+#header{
+  margin-left: 150px;
+  margin-top: 10px;
+    
+}
+
+#aTag{
+    padding: 8px;
+    color: rgb(10, 99, 99);
+    border-radius: 10px;
+    background-color: azure;
+
+}
+
+#aTag:hover{
+    background: orange;
+    border: 1px solid rgb(197, 112, 43);
 }
