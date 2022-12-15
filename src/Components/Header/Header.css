@@ -9,7 +9,7 @@
      top: 0;
      left: 0;
      z-index: 1;
-     background-color: aliceblue;
+     background-color: lightgrey;
   
 }
 
@@ -26,6 +26,7 @@
     align-items: center;
     column-gap: 2.7rem;
     padding: 20px;
+    color: black;
 }
 
 .nav-item a{

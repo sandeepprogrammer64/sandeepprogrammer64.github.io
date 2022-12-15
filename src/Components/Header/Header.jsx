@@ -35,7 +35,7 @@ function Header() {
   useEffect(() =>
   {
      window.addEventListener("scroll", () =>{
-          if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80)
+          if(document.body.scrollTop > 40 || document.documentElement.scrollTop > 40)
           {
                headerRef.current.classList.add("header-shrink")
           }
@@ -51,18 +51,7 @@ function Header() {
      };
   }, [])
 
-//   const handleClick = (e) =>
-//   {
-//       e.preventDefault();
-//       const targetedAttr = e.target.getAttribute("href");
-//       const location  = document.querySelector(targetedAttr).offsetTop;
 
-//       window.scroll({
-//           left:0,
-//           top: location-70,
-//       });
-
-//   };
 
 
 

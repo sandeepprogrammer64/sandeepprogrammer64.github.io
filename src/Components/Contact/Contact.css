@@ -1,8 +1,106 @@
 
 
-.single-info-box{
-    border-bottom: 1px solid #7865ff;
-    border-radius: 8px;
-    background: rgb(159, 205, 245);
+.c{
+    height: 100vh;
+    background: blanchedalmond;
+}
+
+.c-bg{
+    width: 20px;
+    height: 100%;
+    background: #a39cd6;
+    position: absolute;
+}
+
+.c-wrapper{
+    padding: 50px;
+    display: flex;
+    gap: 500px;
+}
+
+.c-left{
+    flex: 1;
+}
+
+.c-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.c-title{
+    font-size: 60px;
+    width: 80%;
+}
+
+.c-info-item{
+    display: flex;
+    align-items: center;
+    margin: 30px 0px;
+    font-weight: 300;
+    width: 70%;
+}
+
+.c-icon{
+    width: 30px;
+    margin-right: 20px;
+    height: 30px;
+}
+
+form{
+    margin-top: 30px;
+    width: 50%;
+    background: aliceblue;
+}
+
+input{
+    width: 300px;
+}
+
+textarea{
+
+    margin: 10px 0px;
+    
+    font-size: 15px;
+    width: 300px;
+
+}
+
+button{
+    padding: 6px;
+    border-radius: 5px;
+    outline: none;
+    font-weight: bold;
+    background: rgb(184, 160, 207);
+}
+
+button:hover{
+    color: #7865ff;
+    background: rgb(139, 238, 108);
+    
+}
+
+#contact-header{
+    margin-top: 100px;
+    margin-left: 100px;
+    background: #7865ff;
+    width: 80%;
     padding: 10px;
 }
+
+
+.icons{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.icons:hover{
+    transform: scale(1.08);
+   
+     border-radius: 8px;
+}
+
+

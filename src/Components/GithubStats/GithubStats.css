@@ -1,0 +1,17 @@
+
+
+.stats-header{
+    margin-left: 150px;
+    
+}
+
+.stat-1{
+    border: 1px solid orange;
+    border-radius: 8px;
+}
+
+.stat-2{
+    border: 1px solid red;
+    border-radius: 8px;
+    margin-left: 30px;
+}

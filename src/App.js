@@ -7,6 +7,7 @@ import Aboutme from "./Components/About/Aboutme";
 import Projects from "./Components/Projects/Projects";
 
 import Contact from "./Components/Contact/Contact";
+import GithubStats from "./Components/GithubStats/GithubStats";
 
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
       <Profile />
       <Aboutme />
       <Projects />
-
+     <br />
+      <GithubStats />
       <Contact />
     </div>
   );
