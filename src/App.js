@@ -8,6 +8,8 @@ import Projects from "./Components/Projects/Projects";
 
 import Contact from "./Components/Contact/Contact";
 import GithubStats from "./Components/GithubStats/GithubStats";
+import AboutSection from "./Components/AboutSection/AboutSection";
+import Skills from "./Components/Skills/Skills";
 
 
 function App() {
@@ -20,10 +22,12 @@ function App() {
   return (
     <div className="App">
       <Layout />
-      <br />
+     
 
       <Profile />
-      <Aboutme />
+      {/* <Aboutme /> */}
+      <AboutSection />
+      <Skills />
       <Projects />
      <br />
       <GithubStats />

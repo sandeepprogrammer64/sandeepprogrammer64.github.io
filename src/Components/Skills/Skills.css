@@ -5,12 +5,19 @@
     padding: 0;
 }
 
+#skills{
+    margin-left: 180px;
+    margin-top: 30px;
+}
 
-#yes{
-   
-    border-radius: 15px;
-    border: 1px solid blue;
-    width: 100px;
+
+#skills:hover{
+    border-radius: 40%;
+    cursor: pointer;
+}
+
+#skill_heading{
+    text-align: center;
 }
 
 #yes h3{

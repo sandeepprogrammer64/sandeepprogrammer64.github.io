@@ -7,6 +7,28 @@ function Profile() {
     <div className="profile-container" id="home">
       <div className="profile-parent">
         <div className="profile-details">
+         
+
+          <div className="profile-details-name">
+            <h3> Hello, I'm Sandeep Prajapati</h3>
+          </div>
+          <div className="profile-details-role">
+            <h1>
+              {" "}
+              <Typical
+                loop={Infinity}
+                steps={[
+                  "A Techie ",
+                  1500,
+                  "A Dedicated Dev",
+                  1000,
+                  "A Full Stack Web Developer",
+                  1000,
+                ]}
+              />
+            </h1>
+          </div>
+
           <div className="colz">
             <div className="colz-icon">
               <a
@@ -44,31 +66,11 @@ function Profile() {
             </div>
           </div>
 
-          <div className="profile-details-name">
-            <h3> Hello, I'm Sandeep Prajapati</h3>
-          </div>
-          <div className="profile-details-role">
-            <h1>
-              {" "}
-              <Typical
-                loop={Infinity}
-                steps={[
-                  "Sandeep Prajapati ",
-                  1500,
-                  "A Dedicated Dev",
-                  1000,
-                  "A Full Stack Web Developer",
-                  1000,
-                ]}
-              />
-            </h1>
-          </div>
-
           <div>
             <a
-              href="Sandeep_Prajapati_Resume.pdf"
+              href="Sandeep_Prajapati_Resume_.pdf"
               target=""
-              download="Sandeep_Prajapati_Resume.pdf"
+              download="Sandeep_Prajapati_Resume_.pdf"
             >
               <button className="primary-button">Get Resume</button>
             </a>
