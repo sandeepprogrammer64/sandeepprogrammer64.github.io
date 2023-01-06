@@ -75,7 +75,7 @@ function Header() {
               <button className="btn">
                 {" "}
                 <b>
-                Resume
+               View Resume
                 </b>
               </button>{" "}
             </a>

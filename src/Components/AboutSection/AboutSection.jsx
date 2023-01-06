@@ -11,10 +11,12 @@ function AboutSection() {
         <div>
           <h4 id="intro">
             Hi, I am Sandeep Prajapati from Lunglei, Mizoram. I developed my
-            interset in Web Development when I was working as an Account's
+            interest in Web Development when I was working as an Account's
             Intern in Delhi. Collaboration with the I.T Department in the
             Company made me join Full Stack Web Development Course from Masai
-            School. Till Now, I have designed several group as well as
+            School. 
+            <br /><br />
+            Till Now, I have designed several group as well as
             Individual Web Applications from scratch. Looking forward to joining
             an Organization to continue to grow my skillset for the upliftment
             of the Organization . Together We'll achieve Massive Goals.

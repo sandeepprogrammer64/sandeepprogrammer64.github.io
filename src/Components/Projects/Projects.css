@@ -49,20 +49,27 @@
 }
 
 .farfetch-header{
-    width: 86%;
+    width: 103%;
+    margin-top: 10px;
     margin-top: 10px;
 }
 
 .airgarage-header{
-    width: 86%;
-    margin-top: 10px;
+    width: 101%;
+    margin-top: 20px;
     margin-left: 50px;
 }
 
 
 
-#header{
+#header1{
   margin-left: 120px;
+  margin-top: 10px;
+    
+}
+
+#header2{
+  margin-left: 170px;
   margin-top: 10px;
     
 }

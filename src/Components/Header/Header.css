@@ -39,7 +39,8 @@
 }
 
 .nav-item a:hover{
-    color: rgb(22, 16, 14);
+    border: 1px solid rgb(248, 151, 151);
+    padding: 2px 2px 2px 2px;
 }
 
 .nav-item a{

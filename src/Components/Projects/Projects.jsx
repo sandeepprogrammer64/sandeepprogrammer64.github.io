@@ -12,14 +12,24 @@ function Projects() {
         </div>
 
         <div>
-          <h2 style={{ marginLeft: "100px" }}>Farfetch Clone</h2>
+          <h2 style={{ marginLeft: "140px", marginTop: "15px" }}>
+            Farfetch Clone
+          </h2>
           <h4 className="farfetch-header">
             Farfetch project is mainly dedicated to Fashion Enthusiasts. A
             website that offers various luxury brands from all over the world.
             It deals in Kid's, Men's and Women's fashion products.
           </h4>
+          <br />
+          <h6>
+            <b>Features:</b>
+          </h6>
+          <span>Sign-Up / Login &nbsp;</span>
+          <span>| &nbsp;Add To Cart &nbsp; </span>
+          <span>| &nbsp;CheckOut &nbsp;</span>
+          <span>| &nbsp;Sorting & Filtering &nbsp;</span>
 
-          <h3 id="header">Tech Stack Used</h3>
+          <h3 id="header1">Tech Stack Used</h3>
           <a href="https://rad-chaja-917c26.netlify.app/" target="_blank">
             <button id="aTag1">View Live</button>
           </a>
@@ -45,22 +55,34 @@ function Projects() {
             href="https://github.com/sandeepprogrammer64/Farfetch_Clone"
             target="_blank"
           >
-            <button id="aTag1">Source</button>
+            <button id="aTag1">View Code</button>
           </a>
         </div>
       </div>
 
-
       <div className="project-images">
-      <div>
-          <h2 style={{ marginLeft: "140px" }}>AirGarage Clone</h2>
+        <div>
+          <h2 style={{ marginLeft: "170px", marginTop: "30px" }}>
+            AirGarage Clone
+          </h2>
           <h4 className="airgarage-header">
-            AirGarage Website  is used for booking Parking Slots.  A
-            website that provides Parking Slots for cities all around the World  .
+            AirGarage Website is used for booking Parking Slots. A website that
+            provides Parking Slots for cities all around the World .
           </h4>
+          <br />
+          <h6 style={{marginLeft:"50px"}}>
+            <b>Features:</b>
+          </h6>
+          <span style={{marginLeft:"50px"}}>Sign-Up / Login &nbsp;</span>
+          <span>| &nbsp;Booking &nbsp; </span>
+          <span>| &nbsp;Location API &nbsp;</span>
+          <span>| &nbsp;onSearch &nbsp;</span>
 
-          <h3 id="header">Tech Stack Used</h3>
-          <a href="https://dazzling-meerkat-951529.netlify.app/" target="_blank">
+          <h3 id="header2">Tech Stack Used</h3>
+          <a
+            href="https://dazzling-meerkat-951529.netlify.app/"
+            target="_blank"
+          >
             <button id="aTag2">View Live</button>
           </a>
 
@@ -88,12 +110,10 @@ function Projects() {
             <button id="aTag1">Source</button>
           </a>
         </div>
-        
+
         <div>
           <img src="AirGarageGIF.gif" alt="" />
         </div>
-
-       
       </div>
 
       <script
