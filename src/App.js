@@ -7,20 +7,22 @@ import Contact from "./Components/Contact/Contact";
 import GithubStats from "./Components/GithubStats/GithubStats";
 import AboutSection from "./Components/AboutSection/AboutSection";
 import Skills from "./Components/Skills/Skills";
+//import GitHubCalendar from "react-github-calendar";
 
 function App() {
   return (
     <div className="App">
-      <Layout />
+      {/* <Layout />
 
       <Profile />
 
       <AboutSection />
-      <Skills />
+      <Skills /> */}
       <Projects />
       <br />
-      <GithubStats />
-      <Contact />
+      {/* <GitHubCalendar /> */}
+      {/* <GithubStats /> */}
+      {/* <Contact /> */}
     </div>
   );
 }

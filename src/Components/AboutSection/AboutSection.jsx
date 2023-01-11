@@ -15,11 +15,12 @@ function AboutSection() {
             Intern in Delhi. Collaboration with the I.T Department in the
             Company made me join Full Stack Web Development Course from Masai
             School. 
-            <br /><br />
+            <br />
             Till Now, I have designed several group as well as
             Individual Web Applications from scratch. Looking forward to joining
             an Organization to continue to grow my skillset for the upliftment
             of the Organization . Together We'll achieve Massive Goals.
+            <br /><br />
           </h4>
           <h4>Apart from being a Developer, My Interests are </h4>
           <b style={{ marginLeft: "30px" }}>Travelling</b>{" "}

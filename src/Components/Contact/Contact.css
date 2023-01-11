@@ -102,3 +102,66 @@ button:hover {
 
   border-radius: 8px;
 }
+
+
+ @media all and (min-width:480px) and (max-width: 720px){
+  
+  .c{
+    background: white;
+    height: 55vh;
+  }
+  
+  .c-bg{
+    height: 50%;
+  }
+  .c-wrapper{
+    gap:7px
+  }
+  p{
+    font-size: 25px;
+    
+  }
+  input{
+    font-size: 22px;
+  }
+
+  textarea{
+    font-size: 22px;
+  }
+
+
+
+
+  
+} 
+
+@media all and (min-width:320px) and (max-width:479px){
+
+  .c-wrapper{
+    gap:5px
+  }
+  .c{
+    background: white;
+    height: 50vh;
+  }
+
+  .c-bg{
+    height: 50%;
+  }
+
+  input{
+    font-size: 25px;
+    border: 1px solid;
+  }
+
+  textarea{
+    font-size: 25px;
+    border: 1px solid;
+  }
+
+ h3{
+  margin-left: 130px;
+  width: 80%;
+  
+ }
+}

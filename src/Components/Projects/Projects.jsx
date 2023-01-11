@@ -12,7 +12,7 @@ function Projects() {
         </div>
 
         <div>
-          <h2 style={{ marginLeft: "140px", marginTop: "15px" }}>
+          <h2 className="Farfetch-title" >
             Farfetch Clone
           </h2>
           <h4 className="farfetch-header">
@@ -62,7 +62,7 @@ function Projects() {
 
       <div className="project-images">
         <div>
-          <h2 style={{ marginLeft: "170px", marginTop: "30px" }}>
+          <h2 className="AirGarage-title">
             AirGarage Clone
           </h2>
           <h4 className="airgarage-header">
@@ -139,7 +139,7 @@ function Projects() {
           <span>| &nbsp;Payment &nbsp;</span>
           <span>| &nbsp;Transition & Swiper &nbsp;</span>
 
-          <h3 id="header1">Tech Stack Used</h3>
+          <h3 id="header3">Tech Stack Used</h3>
           <a href="https://creative-profiterole-43487b.netlify.app/" target="_blank">
             <button id="aTag1">View Live</button>
           </a>
@@ -157,6 +157,11 @@ function Projects() {
           <img
             style={{ width: "40px", height: "40px", marginLeft: "5px" }}
             src="https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png"
+            alt=""
+          />
+          <img
+            style={{ width: "40px", height: "40px", marginLeft: "5px" }}
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY4nVjNclsU21J8Cr_I2w0V1zywQMCWqWDelFeAM_zNlNoP-E6Z3S-MRSqjYvv292f9PQ&usqp=CAU"
             alt=""
           />
 

@@ -1,100 +1,117 @@
-.project-images{
-   
-    display: flex;
-    margin-left: 50px;
-    margin-top: 50px;
-    gap: 100px;
-    border: 1px solid lightblue;
-    width: 95%;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: aliceblue;
-    
-   
+.project-images {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 50px;
+  gap: 100px;
+  border: 1px solid lightblue;
+  width: 95%;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: aliceblue;
 }
 
-#project_header{
-
-    text-align: center;
-    margin-top: 50px;
-    background-color: #7655ff;
-    padding: 10px 5px 10px 5px;
-    width: 100%;
+#project_header {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #7655ff;
+  padding: 10px 5px 10px 5px;
+  width: 100%;
 }
 
-
-.project-images img{
-    width: 600px;
-    height: 400px;
-    border: 1px solid rgb(59, 112, 83);
-    border-radius: 10px;
-    transition: all 0.3s ease;
-    overflow: hidden;
-    
+.project-images img {
+  width: 600px;
+  height: 400px;
+  border: 1px solid rgb(59, 112, 83);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  overflow: hidden;
 }
 
-.project-images img:hover{
-    transform: scale(1.05);
-    border: 1px solid orangered;
-    border-color: #92bcb5;
-    
+.project-images img:hover {
+  transform: scale(1.05);
+  border: 1px solid orangered;
+  border-color: #92bcb5;
 }
 
-.project-header{
-    margin-top: 50px;
-    padding: 10px;
-    background: #7865ff;
-    margin-left: 100px;
-    width: 87%;
+.project-header {
+  margin-top: 50px;
+  padding: 10px;
+  background: #7865ff;
+  margin-left: 100px;
+  width: 87%;
 }
 
-.farfetch-header{
-    width: 103%;
-    margin-top: 10px;
-    margin-top: 10px;
+.farfetch-header {
+  width: 103%;
+  margin-top: 10px;
+  margin-top: 10px;
 }
 
-.airgarage-header{
-    width: 101%;
-    margin-top: 20px;
-    margin-left: 50px;
+.airgarage-header {
+  width: 101%;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.Farfetch-title {
+  margin-left: 140px;
+  margin-top: 15px;
 }
 
+.AirGarage-title {
+  margin-left: 170px;
+  margin-top: 30px;
+}
 
-
-#header1{
+#header1 {
   margin-left: 110px;
   margin-top: 10px;
-    
 }
 
-#header2{
+#header2 {
   margin-left: 155px;
   margin-top: 10px;
-    
 }
 
-#aTag1{
-    padding: 8px;
-    color: rgb(10, 99, 99);
-    border-radius: 10px;
-    background-color: azure;
-    
-
+#header3 {
+  margin-left: 125px;
+  margin-top: 10px;
 }
 
-#aTag2{
-    padding: 8px;
-    color: rgb(10, 99, 99);
-    border-radius: 10px;
-    background-color: azure;
-    margin-left: 50px;
-
+#aTag1 {
+  padding: 8px;
+  color: rgb(10, 99, 99);
+  border-radius: 10px;
+  background-color: azure;
 }
 
-
-#aTag1:hover, #aTag2:hover{
-    background: orange;
-    border: 1px solid rgb(197, 112, 43);
+#aTag2 {
+  padding: 8px;
+  color: rgb(10, 99, 99);
+  border-radius: 10px;
+  background-color: azure;
+  margin-left: 50px;
 }
 
+#aTag1:hover,
+#aTag2:hover {
+  background: orange;
+  border: 1px solid rgb(197, 112, 43);
+}
+
+@media all and (min-width: 480px) and (max-width: 720px) {
+  .project-images {
+    display: grid;
+    width: fit-content;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 479px) {
+  .project-images {
+    display: grid;
+    width: fit-content;
+  }
+
+  #project_header {
+    width: 180%;
+  }
+}
