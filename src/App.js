@@ -12,17 +12,17 @@ import Skills from "./Components/Skills/Skills";
 function App() {
   return (
     <div className="App">
-      {/* <Layout />
+      <Layout />
 
       <Profile />
 
       <AboutSection />
-      <Skills /> */}
+      <Skills />
       <Projects />
       <br />
       {/* <GitHubCalendar /> */}
-      {/* <GithubStats /> */}
-      {/* <Contact /> */}
+      <GithubStats /> 
+       <Contact />
     </div>
   );
 }
