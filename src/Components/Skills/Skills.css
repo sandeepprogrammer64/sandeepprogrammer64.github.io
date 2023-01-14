@@ -30,16 +30,17 @@
 
 .imgs{
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 130px);
+    grid-template-rows: repeat(2, 160px);
     display: grid;
     background: rgb(138, 146, 153);
     padding: 10px;
+    
   
 }
 
 .imgs img{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     margin: 0;
     border-radius: 30px;
     background-color: blanchedalmond;
