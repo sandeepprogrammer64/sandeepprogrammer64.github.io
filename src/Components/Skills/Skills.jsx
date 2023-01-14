@@ -4,32 +4,25 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Skills.css";
 
-const state = {
-  display: true,
-  width: 1000,
-};
 
 const settings = {
   dots: true,
   infinite: true,
   speed: 5000,
   fade: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrowsbuttons: true,
+ 
+  
   autoplay: true,
   autoplaySpeed: 1500,
-  swipeToSlide: true,
+  
+  
 };
 
 function Skills() {
   return (
     <section
       id="skills"
-      style={{
-        width: state.width + "px",
-        display: state.display ? "block" : "none",
-      }}
+      
     >
       <Slider {...settings}>
         <div id="yes">

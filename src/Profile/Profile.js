@@ -7,8 +7,6 @@ function Profile() {
     <div className="profile-container" id="home">
       <div className="profile-parent">
         <div className="profile-details">
-         
-
           <div className="profile-details-name">
             <h3> Hello, I'm Sandeep Prajapati</h3>
           </div>

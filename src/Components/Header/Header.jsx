@@ -1,6 +1,12 @@
 import React, { useRef, useEffect } from "react";
 import { Container } from "reactstrap";
+//import HamburgerMenu from "../HamburgerMenu";
 import "./Header.css";
+// import ScriptTag from "react-script-tag";
+
+// import DrawerExample from "../DrawerExample";
+import useWindowSize from "../Hooks/WindowSizehook";
+import Burger from "../Burger/Burger";
 
 const navLinks = [
   {
@@ -27,6 +33,9 @@ const navLinks = [
 
 function Header() {
   const headerRef = useRef(null);
+  const [height, width] = useWindowSize();
+  // console.log(width, height);
+  console.log(useWindowSize());
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -45,14 +54,18 @@ function Header() {
     };
   }, []);
 
+  
+
   return (
     <header className="header" ref={headerRef}>
       <Container>
-        <div className="navigation d-flex align-items-center justify-content-between">
+        <div className="navBar">
+        
           <div className="logo">
             <h3>Sandeep</h3>
           </div>
           <div className="nav_menu">
+            {width > 950 ? 
             <ul className="nav-list">
               {navLinks.map((item, index) => {
                 return (
@@ -61,28 +74,26 @@ function Header() {
                   </h6>
                 );
               })}
-            </ul>
+            </ul> : <Burger />
+}
           </div>
 
           <div className="nav-right">
-           
             <a
-              href="https://drive.google.com/file/d/19m6KD4CbI6QVqQTDc-7qmghKVlGNyTqE/view?usp=sharing"
-              download="Sandeep_Prajapati_Resume_.pdf"
+              href="Sandeep_Prajapati_Resume_.pdf"
+              onclick="openTab()"
               target="_blank"
             >
               {" "}
               <button className="btn">
                 {" "}
-                <b>
-               View Resume
-                </b>
+                <b>View Resume</b>
               </button>{" "}
             </a>
-            <span className="mobile-menu"></span>
           </div>
         </div>
       </Container>
+     
     </header>
   );
 }

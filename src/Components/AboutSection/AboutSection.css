@@ -3,7 +3,7 @@
     display: flex;
     margin-top: 0px;
     gap: 100px;
-    
+    width: 100%;
     padding: 25px 5px 20px 5px;
 }
 
@@ -57,3 +57,51 @@
     cursor: pointer;
 }
 
+
+@media screen and (max-width:479px)
+{
+    #About_section{
+        width: 100%;
+        display: grid;
+    }
+
+    #skill_header{
+        width: 100%;
+    }
+
+    #apna_image img{
+        width: 100%;
+        margin: auto;
+    }
+
+    #about_header{
+        width: 100%;
+    }
+
+    #intro{
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:900px)
+{
+    #About_section{
+        width: 100%;
+        display: grid;
+        margin: auto;
+    }
+
+    #apna_image img{
+        text-align: center;
+       
+        
+        
+    }
+
+    #skill_header{
+        width: 100%;
+    }
+
+
+}

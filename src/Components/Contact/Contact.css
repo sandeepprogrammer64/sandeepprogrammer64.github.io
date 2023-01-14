@@ -85,16 +85,16 @@ button:hover {
 
 #contact-header {
   margin-top: 100px;
-  margin-left: 100px;
+  text-align: center;
   background: #7865ff;
-  width: 80%;
+  width: 100%;
   padding: 10px;
 }
 
 .icons {
   width: 30px;
   height: 30px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .icons:hover {
@@ -104,18 +104,21 @@ button:hover {
 }
 
 
- @media all and (min-width:480px) and (max-width: 720px){
+ @media all and (max-width: 900px){
   
   .c{
     background: white;
     height: 55vh;
+   
   }
   
   .c-bg{
-    height: 50%;
+    height: fit-content;
   }
   .c-wrapper{
-    gap:7px
+    gap: 0px;
+    
+    /* margin-left: 50px; */
   }
   p{
     font-size: 25px;
@@ -128,40 +131,83 @@ button:hover {
   textarea{
     font-size: 22px;
   }
-
+   
+  #contact-header{
+    width: 100%;
+   }
 
 
 
   
 } 
 
-@media all and (min-width:320px) and (max-width:479px){
+@media screen and (max-width:479px){
+
+
+  #contact-header{
+    width: 100%;
+   }
 
   .c-wrapper{
-    gap:5px
+   margin: auto;
+   display: grid;
+   gap: 3px;
   }
   .c{
     background: white;
-    height: 50vh;
+    height: fit-content;
+   
   }
 
   .c-bg{
-    height: 50%;
+    height: fit-content;
   }
 
+  .c-right{
+   margin: auto;
+   
+  }
+
+  
   input{
     font-size: 25px;
     border: 1px solid;
+    margin-left: -80px;
   }
 
   textarea{
     font-size: 25px;
     border: 1px solid;
+    margin-left: -80px;
   }
 
- h3{
-  margin-left: 130px;
-  width: 80%;
+ 
+
   
- }
+  
+}
+
+@media screen and (max-width:900px)
+{
+  #contact-header{
+    width: 80%;
+   }
+
+  .c-wrapper{
+   margin: auto;
+   
+   gap: 0px;
+  }
+
+  .c-bg{
+    height: fit-content;
+  }
+
+  .c{
+    height: fit-content;
+  }
+
+  .c-right{
+    margin: auto;
+  }
 }

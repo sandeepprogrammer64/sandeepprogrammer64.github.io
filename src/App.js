@@ -7,7 +7,6 @@ import Contact from "./Components/Contact/Contact";
 import GithubStats from "./Components/GithubStats/GithubStats";
 import AboutSection from "./Components/AboutSection/AboutSection";
 import Skills from "./Components/Skills/Skills";
-//import GitHubCalendar from "react-github-calendar";
 
 function App() {
   return (
@@ -17,12 +16,15 @@ function App() {
       <Profile />
 
       <AboutSection />
+
       <Skills />
+
       <Projects />
       <br />
-      {/* <GitHubCalendar /> */}
-      <GithubStats /> 
-       <Contact />
+
+      <GithubStats />
+
+      <Contact />
     </div>
   );
 }

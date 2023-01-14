@@ -3,11 +3,13 @@
     display: flex;
     padding-left: 30px;
     height: 650px;
+    
     text-align: center;
     justify-content: center;
     align-items: center;
     margin-top: 60px;
     background: lightgrey;
+    
     /* background-image: url("https://media.giphy.com/media/9JrkkDoJuU0FbdbUZU/giphy.gif"); */
    
 }
@@ -19,17 +21,16 @@
 
 .profile-picture{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    
     box-shadow: 0 1px 0px 0px var(--white);
-    margin: 0 0px 0 100px ;
+    
    
 
 }
 
-.avatar{
-   margin-top: 20px;
-   margin-right: 100px;
+.avatar {
+  
+    margin-top: 20px;
     width: 380px;
     height: 380px;
     border-radius: 50%;
@@ -53,4 +54,35 @@
 .colz-icon i{
     width: 40px;
     height: 40px;
+}
+
+
+@media screen  and  (max-width:479px)
+{
+    .profile-container{
+        width: 100%;
+    }
+
+    #skill_header{
+        width: 100%;
+    }
+
+    .profile-picture{
+        width: 100%;
+    }
+
+    .avatar{
+       
+        width: 100%;
+    }
+
+    
+
+}
+
+@media screen and (max-width:900px)
+{
+    .profile-container{
+        width: 100%;
+    }
 }

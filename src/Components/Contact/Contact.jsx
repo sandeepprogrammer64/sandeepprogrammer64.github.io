@@ -44,7 +44,7 @@ function Contact() {
 
   return (
     <section id="contact">
-      <h2 id="skill_header">Feel free to Leave a Message </h2>
+      <h2 id="contact-header">Feel free to Leave a Message </h2>
 
       <div className="c">
         <div className="c-bg">
@@ -158,9 +158,9 @@ function Contact() {
         </div>
       </div>
       <div>
-        <h3 style={{ textAlign: "center", fontWeight: "bold" }}>
+        {/* <h3 style={{ textAlign: "center", fontWeight: "bold" }}>
           Made By Sandeep Prajapati
-        </h3>
+        </h3> */}
       </div>
     </section>
   );

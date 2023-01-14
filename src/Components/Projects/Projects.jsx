@@ -55,7 +55,7 @@ function Projects() {
             href="https://github.com/sandeepprogrammer64/Farfetch_Clone"
             target="_blank"
           >
-            <button id="aTag1">View Code</button>
+            <button id="aTag2">View Code</button>
           </a>
         </div>
       </div>
@@ -83,7 +83,7 @@ function Projects() {
             href="https://dazzling-meerkat-951529.netlify.app/"
             target="_blank"
           >
-            <button id="aTag2">View Live</button>
+            <button id="aTag1">View Live</button>
           </a>
 
           <img
@@ -107,7 +107,7 @@ function Projects() {
             href="https://github.com/sandeepprogrammer64/Airgarage-Clone"
             target="_blank"
           >
-            <button id="aTag1">Source</button>
+            <button id="aTag2">View Code</button>
           </a>
         </div>
 
@@ -122,7 +122,7 @@ function Projects() {
         </div>
 
         <div>
-          <h2 style={{ marginLeft: "140px", marginTop: "15px" }}>
+          <h2 className="GearBest-title">
             GearBest Clone
           </h2>
           <h4 className="farfetch-header">
@@ -170,7 +170,7 @@ function Projects() {
             href="https://github.com/sandeepprogrammer64/Gear-Best-Clone"
             target="_blank"
           >
-            <button id="aTag1">View Code</button>
+            <button id="aTag2">View Code</button>
           </a>
         </div>
       </div>

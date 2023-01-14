@@ -14,12 +14,20 @@
   
 }
 
+.navBar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
 
 
 .logo h3{
     font-size: 1.3rem;
     font-weight: bold;
     color: #3131cf;
+    margin-top: 20px;
+    text-align: left;
     
 }
 
@@ -56,7 +64,7 @@
 
 .btn{
     background-color:  rgb(243, 146, 146);
-    margin-bottom: 15px;
+    
     
 
 }
@@ -66,4 +74,44 @@
     border-radius: 10px;
    
 }
+
+
+@media screen and (max-width:479px)
+{
+    .header{
+        width: 100%;
+        
+    }
+
+    .logo h3{
+        margin: auto;
+    }
+
+    .navBar{
+        width: fit-content;
+    }
+
+    .nav-list{
+        width: 100%;
+    }
+
+    .btn{
+        display: none;
+    }
+}
+
+@media screen and (max-width:900px)
+{
+    .header{
+        width: 100%;
+    }
+
+    .logo h3{
+       display: none;
+    }
+}
+
+
+   
+
 

@@ -8,17 +8,17 @@
 }
 
 .stat-1{
-    border: 1px solid orange;
+    border: 1px solid whitesmoke;
     border-radius: 8px;
     height: 200px;
-    background-color: black;
+    
     
 }
 
 
 
 .stat-2{
-    border: 1px solid red;
+    border: 1px solid whitesmoke;
     border-radius: 8px;
     margin-left: 30px;
 }
@@ -28,3 +28,37 @@
    margin-left: 250px;
    border-radius: 8px;
 }
+
+@media screen and (max-width:479px)
+{
+    .stats-header{
+        display: grid;
+        margin: auto;
+       
+        
+    }
+
+    .stat-1, .stat-2, .stat-3{
+        width: fit-content;
+        margin: 10px 0px 0px 0px;
+        height: fit-content;
+
+    }
+}
+
+@media screen and (max-width:900px)
+{
+    .stats-header{
+        display: grid;
+        margin: auto;
+       
+        
+    }
+
+    .stat-1, .stat-2, .stat-3{
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+        height: fit-content;
+
+    }
+} 

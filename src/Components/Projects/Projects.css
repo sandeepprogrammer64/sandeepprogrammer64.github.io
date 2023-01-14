@@ -33,13 +33,6 @@
   border-color: #92bcb5;
 }
 
-.project-header {
-  margin-top: 50px;
-  padding: 10px;
-  background: #7865ff;
-  margin-left: 100px;
-  width: 87%;
-}
 
 .farfetch-header {
   width: 103%;
@@ -60,6 +53,12 @@
 .AirGarage-title {
   margin-left: 170px;
   margin-top: 30px;
+}
+
+.GearBest-title{
+
+  margin-left: 140px;
+  margin-top: 15px;
 }
 
 #header1 {
@@ -98,21 +97,73 @@
   border: 1px solid rgb(197, 112, 43);
 }
 
-@media all and (min-width: 480px) and (max-width: 720px) {
-  .project-images {
-    display: grid;
-    width: fit-content;
-  }
-}
 
-@media all and (min-width: 320px) and (max-width: 479px) {
+
+
+@media screen and (max-width: 479px) {
   .project-images {
     display: grid;
-    width: fit-content;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 50px;
+   
+  }
+
+  .project-images img{
+    width: 100%;
+  }
+
+  .Farfetch-title, .AirGarage-title, .GearBest-title{
+      margin:auto;
   }
   
 
   #project_header {
-    width: 180%;
+    width: 100%;
+   
   }
+
+  .farfetch-header, .airgarage-header, .gearBest-header{
+      width: fit-content;
+      margin-left: 0px;
+  }
+
+  #aTag2{
+     margin-left: -48px;
+  }
+
+  #header1, #header2, #header3{
+    margin: 10px 0px 0px 100px;
+  }
+
+
+  
+}
+
+
+@media screen and (max-width:900px)
+{
+    
+  .project-images {
+    display: grid;
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+   
+  }
+
+  .project-images img{
+    width: 100%;
+  }
+
+  #project_header {
+    width: 100%;
+   
+  }
+
+  .farfetch-header, .airgarage-header, .gearBest-header{
+    width: fit-content;
+    margin-left: 0px;
+    margin: auto;
+}
+
 }

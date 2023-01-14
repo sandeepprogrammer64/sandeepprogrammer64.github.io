@@ -5,8 +5,10 @@
     position: fixed;
     width: 36px;
     height: 30px;
-    left: 36px;
-    top: 36px;
+    left: 36px; 
+    top: 25px;
+    
+
   }
   
   /* Color/shape of burger icon bars */
@@ -37,6 +39,11 @@
   .bm-menu-wrap {
     position: fixed;
     height: 100%;
+   
+    
+    
+
+    
   }
   
   /* General sidebar styles */
@@ -44,6 +51,11 @@
     background: #373a47;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
+   
+    /* right: -140px;
+    position: relative;
+    */
+
   }
   
   /* Morph shape necessary with bubble or elastic */
@@ -66,3 +78,7 @@
   .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
   }
+
+
+
+  
