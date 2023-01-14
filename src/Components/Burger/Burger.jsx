@@ -18,7 +18,7 @@ import "./Burger.css"
         <a className="menu-item" href="#skills">Skills</a>
         <a className="menu-item" href="#project">Projects</a>
         <a className="menu-item" href="#contact">Contact</a>
-        <a href="">View Resume</a>
+        <a href="https://drive.google.com/file/d/19m6KD4CbI6QVqQTDc-7qmghKVlGNyTqE/view?usp=share_link" target="_blank">View Resume</a>
         {/* <a onClick={ showSettings } className="menu-item--small" href="">Settings</a> */}
       </Menu>
     );
