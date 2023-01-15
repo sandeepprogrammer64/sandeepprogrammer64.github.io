@@ -94,7 +94,7 @@ button:hover {
 .icons {
   width: 30px;
   height: 30px;
-  /* margin-left: 20px; */
+ margin-left: 20px;
 }
 
 .icons:hover {
@@ -151,7 +151,7 @@ button:hover {
   .c-wrapper{
    margin: auto;
    display: grid;
-   gap: 3px;
+   
   }
   .c{
     background: white;
@@ -163,10 +163,7 @@ button:hover {
     height: fit-content;
   }
 
-  .c-right{
-   margin: auto;
-   
-  }
+  
 
   
   input{
@@ -180,7 +177,9 @@ button:hover {
     border: 1px solid;
     margin-left: -80px;
   }
-
+  p{
+    margin-top: 30px;
+  }
  
 
   
@@ -190,7 +189,7 @@ button:hover {
 @media screen and (max-width:900px)
 {
   #contact-header{
-    width: 80%;
+    width: 100%;
    }
 
   .c-wrapper{
@@ -205,6 +204,7 @@ button:hover {
 
   .c{
     height: fit-content;
+    
   }
 
   .c-right{
