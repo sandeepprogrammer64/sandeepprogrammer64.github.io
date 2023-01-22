@@ -15,13 +15,15 @@ code {
 html{
   scroll-behavior: smooth;
 }
-
+body{
+  background-color: lightgray;
+}
 
 
 .primary-button{
   color: black;
   border: 2px solid linen;
-  background-color: rgb(160, 209, 252);
+ 
   border-radius: 8px;
   font-weight: bold;
   padding: 8px;
@@ -29,7 +31,7 @@ html{
 
 .primary-button:hover{
   color: aliceblue;
-  background-color: rgb(240, 189, 95);
+  background-color: #585656;
 }
 
 

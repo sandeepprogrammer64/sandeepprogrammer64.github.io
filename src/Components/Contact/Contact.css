@@ -1,24 +1,12 @@
-.c {
-  height: 90vh;
-  background: blanchedalmond;
-}
 
-.c-bg {
-  width: 20px;
-  height: 90%;
-  background: #a39cd6;
-  position: absolute;
-}
+
 
 .c-wrapper {
   padding: 50px;
   display: flex;
-  gap: 500px;
+  gap: 400px;
 }
 
-.c-left {
-  flex: 1;
-}
 
 .c-right {
   flex: 1;
@@ -26,6 +14,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  
 }
 
 .c-title {
@@ -47,22 +36,22 @@
   height: 30px;
 }
 
-form {
-  margin-top: 30px;
-  width: 50%;
-}
+
 
 input {
-  width: 300px;
+  width: 400px;
   margin-top: 10px;
-  padding-left: 4px;
+  padding-left: 10px;
+  border: none;
+  height: 30px;
+  border-radius: 4px;
 }
 
 textarea {
   margin: 10px 0px;
-
+  border-radius: 4px;
   font-size: 15px;
-  width: 300px;
+  width: 400px;
   padding-left: 4px;
 }
 
@@ -71,22 +60,24 @@ button {
   border-radius: 5px;
   outline: none;
   font-weight: bold;
-  background: rgb(184, 160, 207);
+  
 }
 
 p{
     font-size: 20px;
+    margin-left: -100px;
 }
 
 button:hover {
-  color: #7865ff;
-  background: rgb(139, 238, 108);
+  color: black;
+  /* background: rgb(139, 238, 108); */
+  background: lightgray;
 }
 
 #contact-header {
-  margin-top: 100px;
+  margin-top: 40px; 
   text-align: center;
-  background: #7865ff;
+  background-color: #888686;
   width: 100%;
   padding: 10px;
 }
@@ -117,8 +108,7 @@ button:hover {
   }
   .c-wrapper{
     gap: 0px;
-    
-    /* margin-left: 50px; */
+  
   }
   p{
     font-size: 25px;
@@ -126,6 +116,7 @@ button:hover {
   }
   input{
     font-size: 22px;
+    border: 1px solid;
   }
 
   textarea{
@@ -141,7 +132,7 @@ button:hover {
   
 } 
 
-@media screen and (max-width:479px){
+@media screen and (max-width:500px){
 
 
   #contact-header{
@@ -149,14 +140,14 @@ button:hover {
    }
 
   .c-wrapper{
-   margin: auto;
-   display: grid;
-   
+    display: grid;
+    width: 100%;
+    margin: auto;
   }
   .c{
     background: white;
     height: fit-content;
-   
+   /* border: 1px solid blue; */
   }
 
   .c-bg{
@@ -169,13 +160,14 @@ button:hover {
   input{
     font-size: 25px;
     border: 1px solid;
-    margin-left: -80px;
+    width: 250px;
+    
   }
 
   textarea{
     font-size: 25px;
     border: 1px solid;
-    margin-left: -80px;
+    width: 250px;
   }
   p{
     margin-top: 30px;
@@ -197,6 +189,20 @@ button:hover {
    
    gap: 0px;
   }
+
+  input{
+    font-size: 25px;
+    border: 1px solid;
+    width: 250px;
+    
+  }
+
+  textarea{
+    font-size: 25px;
+    border: 1px solid;
+    width: 250px;
+  }
+
 
   .c-bg{
     height: fit-content;

@@ -7,13 +7,13 @@
   width: 95%;
   padding: 20px;
   border-radius: 20px;
-  background-color: aliceblue;
+  background-color: #888686;
+  color: white;
 }
 
 #project_header {
   text-align: center;
-  margin-top: 50px;
-  background-color: #7655ff;
+  background-color: #888686;
   padding: 10px 5px 10px 5px;
   width: 100%;
 }
@@ -38,42 +38,56 @@
   width: 103%;
   margin-top: 10px;
   margin-top: 10px;
+  color: white;
 }
 
 .airgarage-header {
   width: 101%;
   margin-top: 20px;
   margin-left: 50px;
+  color: white;
 }
 .Farfetch-title {
   margin-left: 140px;
   margin-top: 15px;
+  color: white;
 }
 
 .AirGarage-title {
   margin-left: 170px;
   margin-top: 30px;
+  color: white;
+}
+
+.AdvanceAutoPart-title{
+  margin-left: 140px;
+  margin-top: 30px;
+  color: white;
 }
 
 .GearBest-title{
 
   margin-left: 140px;
   margin-top: 15px;
+  color: white;
 }
 
 #header1 {
   margin-left: 110px;
   margin-top: 10px;
+  color: white;
 }
 
 #header2 {
   margin-left: 155px;
   margin-top: 10px;
+  color: white;
 }
 
 #header3 {
   margin-left: 125px;
   margin-top: 10px;
+  color: white;
 }
 
 #aTag1 {
@@ -88,12 +102,39 @@
   color: rgb(10, 99, 99);
   border-radius: 10px;
   background-color: azure;
+  margin-left: 30px;
+}
+
+#aTag1A {
+  padding: 8px;
+  color: rgb(10, 99, 99);
+  border-radius: 10px;
+  background-color: azure;
   margin-left: 50px;
 }
 
+#aTag1Advance {
+  padding: 8px;
+  color: rgb(10, 99, 99);
+  border-radius: 10px;
+  background-color: azure;
+  margin-left: 30px;
+}
+
+#aTag2Advance {
+  padding: 8px;
+  color: rgb(10, 99, 99);
+  border-radius: 10px;
+  background-color: azure;
+  margin-left: -15px;
+}
+
 #aTag1:hover,
-#aTag2:hover {
-  background: orange;
+#aTag2:hover, 
+#aTag1A:hover,
+#aTag2Advance:hover,
+#aTag1Advance:hover {
+ 
   border: 1px solid rgb(197, 112, 43);
 }
 
@@ -113,7 +154,7 @@
     width: 100%;
   }
 
-  .Farfetch-title, .AirGarage-title, .GearBest-title{
+  .Farfetch-title, .AirGarage-title, .GearBest-title, .AdvanceAutoPart-title{
       margin:auto;
   }
   
@@ -132,9 +173,21 @@
      margin-left: -48px;
   }
 
+  #aTag2Advance
+  {
+    margin-left: 10px;
+  }
+  
+
+  #aTag1A{
+    margin-left: -3px;
+  }
+
   #header1, #header2, #header3{
     margin: 10px 0px 0px 100px;
   }
+
+ 
 
 
   

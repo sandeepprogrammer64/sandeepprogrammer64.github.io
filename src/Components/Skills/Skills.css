@@ -1,18 +1,18 @@
 
 
-*{
-    margin: 0;
-    padding: 0;
-}
+
+
 
 #skills{
+    width: 96%;
     margin: auto;
-    width: 70%;
+    padding-bottom: 20px;
+   
 }
 
 
 #skills:hover{
-    border-radius: 40%;
+    /* border-radius: 40%; */
     cursor: pointer;
 }
 
@@ -21,23 +21,35 @@
 }
 
 #yes h3{
-    background: #7865ff;
-    color: aliceblue;
+    
+    color: black;
     height: 45px;
     padding: 10px;
 
 }
 
 .imgs{
+
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 160px);
-    display: grid;
-    background: rgb(138, 146, 153);
-    padding: 10px;
+    /* background: rgb(138, 146, 153); */
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    justify-content: space-between;
+    background-color: #888686;
     
   
 }
+#skill_header{
 
+    text-align: center;
+    background-color: #888686;
+    padding: 10px 5px 10px 5px;
+    width: 100%;
+}
 
 .imgs img{
     width: 120px;
@@ -57,11 +69,15 @@
 @media screen and (max-width:479px)
 {
     #skills{
-        width: 100%;
+        width: 96%;
         margin: auto;
     }
 
     #yes{
+        width: 100%;
+    }
+
+    .imgs{
         width: 100%;
     }
 

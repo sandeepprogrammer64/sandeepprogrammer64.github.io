@@ -13,6 +13,11 @@
     /* background-image: url("https://media.giphy.com/media/9JrkkDoJuU0FbdbUZU/giphy.gif"); */
    
 }
+.profile-details-role
+{
+    text-align: center;
+    margin-left: 100px;
+}
 
 .profile-details-name{
      font-size: 24px;

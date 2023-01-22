@@ -5,9 +5,7 @@ function AboutSection() {
     <section id="about me">
       <h2 id="about_header">About Me</h2>
       <div id="About_section">
-        <div id="apna_image">
-          <img src="Sandeep_Photo.jpg" alt="" />
-        </div>
+        
         <div>
           <h4 id="intro">
             Hi, I am Sandeep Prajapati from Lunglei, Mizoram. I developed my
@@ -15,14 +13,16 @@ function AboutSection() {
             Intern in Delhi. Collaboration with the I.T Department in the
             Company made me join Full Stack Web Development Course from Masai
             School. 
-            <br />
+            <br /> 
             Till Now, I have designed several group as well as
             Individual Web Applications from scratch. Looking forward to joining
             an Organization to continue to grow my skillset for the upliftment
-            of the Organization . Together We'll achieve Massive Goals.
-            <br /><br />
+            of the Organization . Together We'll achieve Massive Goals. 
           </h4>
-          <h4>Apart from being a Developer, My Interests are </h4>
+          <div className="interests">
+
+         
+          <h4 style={{textAlign:"center"}}>Apart from being a Developer, My Interests are </h4>
           <b style={{ marginLeft: "30px" }}>Travelling</b>{" "}
           <img
             className="interest_IMG"
@@ -51,10 +51,14 @@ function AboutSection() {
             alt=""
           />
           <br />
+          </div>
+          <br /><br />
+          <br /><br />
+          <hr />
         </div>
       </div>
 
-      <h2 id="skill_header">Skills</h2>
+     
     </section>
 
     

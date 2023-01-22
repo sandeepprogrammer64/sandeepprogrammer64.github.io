@@ -131,7 +131,7 @@ function Contact() {
               </div>
             </div>
             <div className="c-right">
-              <p>Your Message or Feedback will be appreciated</p>
+              {/* <p >Your Message or Feedback will be appreciated</p> */}
               <form ref={formRef} onSubmit={SubmitHandler}>
                 <input
                   type="text"

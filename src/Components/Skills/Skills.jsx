@@ -24,6 +24,7 @@ function Skills() {
       id="skills"
       
     >
+       <h2 id="skill_header">Skills</h2>
       <Slider {...settings}>
         <div id="yes">
           <h3 id="skill_heading">FrontEnd Tools</h3>
@@ -101,6 +102,9 @@ function Skills() {
           </div>
         </div>
       </Slider>
+      <br /><br />
+      <br /><br />
+      <hr />
     </section>
   );
 }

@@ -62,7 +62,7 @@ function Header() {
         <div className="navBar">
         
           <div className="logo">
-            <h3>Sandeep</h3>
+            <h3>Sandeep Prajapati.</h3>
           </div>
           <div className="nav_menu">
             {width > 950 ? 
