@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import { SiJavascript } from "react-icons/si";
+// import { SiJavascript } from "react-icons/si";
 
 function Projects() {
   return (
