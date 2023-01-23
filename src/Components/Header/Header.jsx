@@ -80,9 +80,9 @@ function Header() {
 
           <div className="nav-right">
             <a
-              href="Sandeep_Prajapati_Resume_.pdf"
-              onclick="openTab()"
+              href="https://drive.google.com/file/d/19m6KD4CbI6QVqQTDc-7qmghKVlGNyTqE/view?usp=share_link"
               target="_blank"
+              rel="noreferrer"
             >
               {" "}
               <button className="btn">
